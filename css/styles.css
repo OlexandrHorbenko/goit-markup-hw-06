@@ -872,7 +872,7 @@ img {
   transition: fill var(--transition-param);
 }
 
-.modal-close-icon:hover, 
+.modal-close-icon:hover,
 .modal-close-icon:focus {
   fill: var(--gray-blue);
 }
@@ -894,11 +894,6 @@ img {
 }
 
 .input-label {
-  font-weight: 400;
-  font-size: 12px;
-  line-height: calc(14 / 12);
-  letter-spacing: 0.01em;
-  color: var(--maine_color);
   margin-bottom: 10px;
   display: block;
 }
@@ -906,6 +901,11 @@ img {
 .input-label-text {
   display: block;
   margin-bottom: 4px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: calc(14 / 12);
+  letter-spacing: 0.01em;
+  color: var(--maine_color);
 }
 
 .input-wrap {
@@ -938,7 +938,7 @@ img {
 }
 
 .modal-field {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .modal-text {
